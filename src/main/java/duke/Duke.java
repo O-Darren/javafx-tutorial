@@ -1,0 +1,11 @@
+package duke;
+
+public class Duke {
+    public static void main(String[] args) {
+        System.out.println("Hello!");
+    }
+
+    public String getResponse(String input) {
+        return "Testament heard: " + input;
+    }
+}
